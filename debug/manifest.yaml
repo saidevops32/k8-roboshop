@@ -7,6 +7,6 @@ spec:
   # list of containers
   containers:
   - name: debug
-    image: joindevops/debug:v1
+    image: saidevops32/debug:v1
     #here with this line port will not be opened, just for information
     command: ["sleep", "100000"]

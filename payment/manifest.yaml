@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: joindevops/payment:v1
+        image: saidevops32/payment:v1
         imagePullPolicy: Always
         envFrom:
         - secretRef:
